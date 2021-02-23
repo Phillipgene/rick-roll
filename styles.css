@@ -1,0 +1,143 @@
+.top {
+  background-color: #FAF6F6;
+  margin-top: 50px;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 10px;
+  border-color: #DAF6F6;
+  height: 0;
+  width: 200px;
+}
+
+/*.top:hover {
+  background-color: #FFFFFF;
+  width: 400px;
+  height: 400px
+}*/
+
+a {
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+.copy {
+  color: #FFFFFF;
+  font-size: 0.75em;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+/*.mid {
+}
+
+.bottom {
+}*/
+
+.i-am {
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: #FAF6F6;
+  font-family: 'Raleway', sans-serif;
+  line-height: 2;
+}
+
+h1 {
+  margin: 0 auto 0 auto; /*another way to center. This is horazontally, vertical would be auto 0 auto 0 */
+  width: 20%;
+  font-size: 3.5em;
+  color: #66BFBF;
+}
+
+h2 {
+  color: #66BFBF;
+}
+
+h3 {
+  color: #11999E;
+}
+
+.bottom-cloud {
+  position: relative;
+  top: 150px;
+  right: 400px;
+}
+
+.top-cloud {
+  position: relative;
+  top: 50px;
+  left: 350px;
+}
+
+.skills {
+  margin-bottom: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin-left: 25%;
+  line-height: 2;
+}
+
+.skill-p {
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img2 {
+  width: 25%;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  float: right;
+}
+
+.bottom-container {
+  background-color: #DAF6F6;
+  padding: 30px 0 20px;
+}
+
+.btn {
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+
+.btn:active {
+	position:relative;
+	top:1px;
+}
